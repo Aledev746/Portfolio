@@ -1,0 +1,33 @@
+:root {
+  /* Sfondi */
+  --bg-primary: #0b0e0c;
+  --bg-surface: #131815;
+  --bg-surface-hover: #18201b;
+
+  /* Bordi */
+  --border-subtle: #222b25;
+  --border-accent: rgba(46, 160, 107, 0.4);
+
+  /* Tipografia */
+  --text-primary: #eceeeb;
+  --text-secondary: #8e9b92;
+  --text-muted: #5c6960;
+
+  /* Accenti */
+  --accent-green: #2ea06b;
+  --accent-amber: #c88a1e;
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont , sans-serif;
+  --font-mono: 'JetBrains Mono',monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+
+}
